@@ -1,0 +1,1 @@
+web: gunicorn physiosense.wsgi --log-file -
