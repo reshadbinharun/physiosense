@@ -25,7 +25,10 @@ SECRET_KEY = '0!1*96(2#rj$dt860thpqyvm6sjlu*=662sd&v8$+abuc!p))a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['physiosense.herokuapp.com']
+ALLOWED_HOSTS = [
+    'physiosense.herokuapp.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
